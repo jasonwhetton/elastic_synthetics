@@ -119,7 +119,7 @@ See the [documentation](https://www.elastic.co/guide/en/observability/8.6/synthe
 
 # Anatomy of a test
 
-Each test consiste of a *journey* broken down into *steps*.
+Each test consists of a *journey* broken down into *steps*.
 
 When writing end-to-end tests it's important to get the scope right. Unlike when writing Unit tests, we don't have the luxury of writing a large volume of tests. This is because running tests against a production environment is going to be orders of magnitude slower than running against a codebase with no external dependencies. Therefore, we have to increase the coverage of each test to compensate.
 
