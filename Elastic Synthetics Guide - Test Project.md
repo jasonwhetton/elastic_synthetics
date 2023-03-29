@@ -215,4 +215,4 @@ A: *This is an issue with Elastic synthetics and they have an open [issue](https
 
 Q: My test is very unstable, I'm considering modifying my alert rules to tolerate more failures.
 
-A: *Whilst you may, in some cases, be unable to avoid allowing for occasional failures due to network issues etc, it should always be a last resort. Look carefully at your test and try to determine if you you can structure it better to avoid the issue.*
+A: *Whilst you may, in some cases, be unable to avoid allowing for occasional failures due to network issues etc, it should always be a last resort. Look carefully at your test and try to determine if you can structure it better to avoid the issue.*
