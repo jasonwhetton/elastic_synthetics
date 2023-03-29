@@ -147,9 +147,9 @@ $ npx playwright codegen www.example.com
 ```
 You will need to copy/paste the code from the codegen tool into your journey and break down into appropriate steps.
 
-## Best practices
+# Best practices
 
-### Use the recorder
+## Use the recorder
 
 Whilst it's tempting to structure your tests using reusable methods, it is not necessarily the best approach.
 
@@ -161,13 +161,13 @@ Using the recorder to produce your tests will provide the following benefits:
 
 Creating dependency between tests by reusing code often leads to brittle tests, increasing the risk for false positives.
 
-### Modify the source when necessary
+## Modify the source when necessary
 
 If the codegen tool uses the locator method rather than getBy* it is usually an indication that you could improve the source in order to allow the codegen to make a better choice.
 
 Ensure that images have appropriate text, for example.
 
-### Separate the journey into logical steps
+## Separate the journey into logical steps
 
 Using steps, it's possible to describe a journey in the same way you would to a person.
 
