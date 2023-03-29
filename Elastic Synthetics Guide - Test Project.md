@@ -207,11 +207,11 @@ Considering separating into a single test for each condition.
 
 Q: It seems that not all of the playwright assertions are available in Elastic synthetics.
 
-A: *That's correct. We have raised it with Elastic and they have an open issue to resolve it.*
+A: *That's correct. We have raised it with Elastic and they have an open [issue](https://discuss.elastic.co/t/synthetics-playwright-version/324987/11) to resolve it. See also [here](https://github.com/elastic/synthetics/issues/700).*
 
 Q: I sometimes see an error with '/tmp/elastic-synthetics-unzip' yet I'm certain that my test should pass.
 
-A: *This is an issue with Elastic synthetics and they have an open issue to resolve it.*
+A: *This is an issue with Elastic synthetics and they have an open [issue](https://discuss.elastic.co/t/error-running-synthetics/327823) to resolve it.*
 
 Q: My test is very unstable, I'm considering modifying my alert rules to tolerate more failures.
 
