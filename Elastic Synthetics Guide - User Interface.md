@@ -58,6 +58,14 @@ You can create alerts that will send a notification when one or more of your mon
 | Status check | Receive alert based on downtime |
 | Availability | Receive alerts based on availability |
 
+When deciding the frequency for alert checks you need to consider the period for each of the tests to be included in the alert.
+
+Consider the following example:
+
+![Alerts](/images/status_check.png "Status Check")
+
+If the period of any test is greater than 3 minutes, this alert will *never* apply to it.
+
 See the [documentation](https://www.elastic.co/guide/en/observability/current/monitor-status-alert.html) for more detail.
 
 ![Alerts](/images/alert_create.png "Alert Creation")
