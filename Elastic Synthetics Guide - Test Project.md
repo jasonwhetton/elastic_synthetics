@@ -119,6 +119,15 @@ See the [documentation](https://www.elastic.co/guide/en/observability/8.6/synthe
 
 # Anatomy of a test
 
+Each test consiste of a *journey* broken down into *steps*.
+
+When writing end-to-end tests it's important to get the scope right. Unlike when writing Unit tests, we don't have the luxury of writing a large volume of tests. This is mainly because running tests against a production environment is going to be orders of magnitude slower than running against a codebase with no external dependencies. Therefore, we have to consider how much to include in each test.
+
+Ideally each journey will have an obvious start and end, but in practice it's not always clear. For example, if we're testing an e-commerce site and we want to test something on the product page, should we search for the product or navigate directly to the product?
+
+The answer is we should try to include as much as possible, provided we maintain a *deterministic* test. That is to say, the result should be predictable.
+
+It also means 
 See the [documentation](https://www.elastic.co/guide/en/observability/8.6/synthetics-create-test.html)
 
 # Recording using codegen
